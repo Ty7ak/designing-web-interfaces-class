@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(120deg, rgb(95, 95, 95), rgb(39, 39, 39));
+    color: white;
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 1.5rem
+}
+
+header, form {
+    min-height: 15vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+}
+
+form input, form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+}
+
+form button {
+    color:rgb(95, 95, 95);
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background:rgb(95, 95, 95);
+    color: white
+}
+
+.list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list {
+    min-width: 30%;
+    list-style: none;
+}
+
+.list {
+    margin: 0.5rem;
+    background: white;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.list li {
+    flex: 1;
+}
+
+.delete-button, .complete-button {
+    background: rgb(95, 95, 95);
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.delete-button {
+    background: rgb(214, 17, 17);
+}
+
+.complete-button {
+    background: rgb(23, 146, 23);
+}
+
+.item {
+    padding: 0rem 0.5rem;
+}
+
+.fa-check, .fa-minus-square {
+    pointer-events: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    background-color:rgb(136, 136, 136);
+    color:rgb(39, 39, 39);
+}
+
+.completed-list-container {
+    overflow-y: auto;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 20%;
+    height: 40%;
+    font-size: 0.8rem;
+    text-align: right;
+    justify-content: right;
+    padding-right: 10px;
+}
+
+.completion-date {
+    color:rgb(23, 146, 23);
+}
+
+.completed-header {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.pop-outer {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.pop-inner {
+    background-color: rgb(39, 39, 39);
+    width: 500px;
+    height: 300px;
+    padding: 25px;
+    margin: 5% auto;
+}
+
+.modal-return, .modal-delete {
+    font-size: 2rem;
+    margin: 5% auto;
+}
+

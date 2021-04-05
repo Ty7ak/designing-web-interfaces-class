@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo list</title>
+</head>
+<body>
+    <header>
+        <h1>ToDo Lists</h1>
+        <h2>by Maciej Tylak 248884</h2>
+    </header>
 
+    <form>
+        <input class="list-input" type="text"  id="input-field" placeholder="Add a task">
+        <button class="input-button" type="submit">
+            <i class="fas fa-plus-square"></i>
+        </button>
+        <button class="undo-button" type="submit">
+            <i class="fas fa-undo"></i>
+        </button>
+    </form>
+    <div class="list-container">
+        <ul class="todo-list" id="todo-list"></ul>  
+    </div>
+
+    <div class="completed-list-container">
+        <p class="completed-header">Completed list</p>
+        <ul class="completed-list"></ul>
+    </div>
+
+    <div style="display: none;" class="pop-outer">
+        <div class="pop-inner">
+            <h2>Are you sure you want to delete that?</h2>
+            <button class="modal-delete">Yes</button>
+            <button class="modal-return">No</button>
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
