@@ -1,6 +1,6 @@
 # Maciej Tylak 248884 - Projektowanie interfejsów webowych [L]
 
-## Lab 1 - https://ty7ak.github.io/PIW/Lab1/index.html
+## Lab 1 - https://ty7ak.github.io/PIW/Lab1/Penguin.html
 Source Code - https://github.com/Ty7ak/PIW/tree/main/Lab1
 ## Lab 2 - https://ty7ak.github.io/PIW/Lab2/index.html
 Source Code - https://github.com/Ty7ak/PIW/tree/main/Lab1
