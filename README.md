@@ -1,6 +1,8 @@
 # Maciej Tylak 248884 - Projektowanie interfejsów webowych [L]
 
-## Lab 1 - 
-## Lab 2 - 
+## Lab 1 - https://ty7ak.github.io/PIW/Lab1/index.html
+Source Code - https://github.com/Ty7ak/PIW/tree/main/Lab1
+## Lab 2 - https://ty7ak.github.io/PIW/Lab2/index.html
+Source Code - https://github.com/Ty7ak/PIW/tree/main/Lab1
 ## Lab 3 - https://ty7ak.github.io/react-app-projects-tinder/
 Source Code - https://github.com/Ty7ak/react-app-projects-tinder/tree/master
