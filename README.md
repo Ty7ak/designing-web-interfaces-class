@@ -9,3 +9,5 @@ Source Code - https://github.com/Ty7ak/react-app-projects-tinder/tree/master
 ## Lab 4 - https://ty7ak.github.io/react-app-SPA/
 Source Code - https://github.com/Ty7ak/react-app-SPA
 (Musialem napisać aplikację od nowa, ponieważ w poprzedniej trudno było zaimplementować SPA)
+## Lab 5 - https://ty7ak.github.io/react-app-Firebase/
+Source Code - https://github.com/Ty7ak/react-app-Firebase
