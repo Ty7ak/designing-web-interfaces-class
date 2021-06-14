@@ -11,3 +11,4 @@ Source Code - https://github.com/Ty7ak/react-app-SPA
 (Musialem napisać aplikację od nowa, ponieważ w poprzedniej trudno było zaimplementować SPA)
 ## Lab 5 - https://ty7ak.github.io/react-app-Firebase/
 Source Code - https://github.com/Ty7ak/react-app-Firebase
+(Wylogowanie nie działa na gh pages - wina githuba, bo nie wspiera SPA :( )
